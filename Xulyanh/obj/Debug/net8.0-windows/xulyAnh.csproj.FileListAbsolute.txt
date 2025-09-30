@@ -1,0 +1,17 @@
+C:\Users\LENOVO\source\repos\xulyAnh\xulyAnh\bin\Debug\net8.0-windows\xulyAnh.exe
+C:\Users\LENOVO\source\repos\xulyAnh\xulyAnh\bin\Debug\net8.0-windows\xulyAnh.deps.json
+C:\Users\LENOVO\source\repos\xulyAnh\xulyAnh\bin\Debug\net8.0-windows\xulyAnh.runtimeconfig.json
+C:\Users\LENOVO\source\repos\xulyAnh\xulyAnh\bin\Debug\net8.0-windows\xulyAnh.dll
+C:\Users\LENOVO\source\repos\xulyAnh\xulyAnh\bin\Debug\net8.0-windows\xulyAnh.pdb
+C:\Users\LENOVO\source\repos\xulyAnh\xulyAnh\obj\Debug\net8.0-windows\xulyAnh.Form1.resources
+C:\Users\LENOVO\source\repos\xulyAnh\xulyAnh\obj\Debug\net8.0-windows\xulyAnh.csproj.GenerateResource.cache
+C:\Users\LENOVO\source\repos\xulyAnh\xulyAnh\obj\Debug\net8.0-windows\xulyAnh.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\xulyAnh\xulyAnh\obj\Debug\net8.0-windows\xulyAnh.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\xulyAnh\xulyAnh\obj\Debug\net8.0-windows\xulyAnh.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\xulyAnh\xulyAnh\obj\Debug\net8.0-windows\xulyAnh.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\xulyAnh\xulyAnh\obj\Debug\net8.0-windows\xulyAnh.dll
+C:\Users\LENOVO\source\repos\xulyAnh\xulyAnh\obj\Debug\net8.0-windows\refint\xulyAnh.dll
+C:\Users\LENOVO\source\repos\xulyAnh\xulyAnh\obj\Debug\net8.0-windows\xulyAnh.pdb
+C:\Users\LENOVO\source\repos\xulyAnh\xulyAnh\obj\Debug\net8.0-windows\xulyAnh.genruntimeconfig.cache
+C:\Users\LENOVO\source\repos\xulyAnh\xulyAnh\obj\Debug\net8.0-windows\ref\xulyAnh.dll
+C:\Users\LENOVO\source\repos\xulyAnh\xulyAnh\obj\Debug\net8.0-windows\xulyAnh.CropForm.resources
