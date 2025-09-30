@@ -13,6 +13,9 @@
         private System.Windows.Forms.ToolStripMenuItem viewMenu;
         private System.Windows.Forms.ToolStripMenuItem resetMenu;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label labelInfo;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel statusLabel;
 
         protected override void Dispose(bool disposing)
         {
@@ -35,8 +38,12 @@
             this.viewMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.resetMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.labelInfo = new System.Windows.Forms.Label();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.statusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -109,18 +116,49 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Black;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Location = new System.Drawing.Point(0, 28);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1000, 572);
+            this.pictureBox1.Size = new System.Drawing.Size(1000, 550);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
+            // labelInfo
+            // 
+            this.labelInfo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelInfo.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Italic);
+            this.labelInfo.ForeColor = System.Drawing.Color.Gray;
+            this.labelInfo.Location = new System.Drawing.Point(0, 28);
+            this.labelInfo.Name = "labelInfo";
+            this.labelInfo.Size = new System.Drawing.Size(1000, 550);
+            this.labelInfo.TabIndex = 2;
+            this.labelInfo.Text = "Nhấn File → Open để mở ảnh";
+            this.labelInfo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.statusLabel});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 578);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(1000, 22);
+            this.statusStrip1.TabIndex = 3;
+            // 
+            // statusLabel
+            // 
+            this.statusLabel.ForeColor = System.Drawing.Color.White;
+            this.statusLabel.Text = "Ready";
+            // 
             // Form1
             // 
+            this.BackColor = System.Drawing.Color.FromArgb(40, 40, 40);
             this.ClientSize = new System.Drawing.Size(1000, 600);
+            this.Controls.Add(this.labelInfo);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
@@ -128,6 +166,8 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
         }

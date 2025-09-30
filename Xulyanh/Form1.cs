@@ -11,8 +11,8 @@ namespace xulyAnh
         private Image currentImage;
 
         private float zoomFactor = 1.0f;   // hệ số zoom
-        private float panX = 0;           // dịch ngang
-        private float panY = 0;           // dịch dọc
+        private float panX = 0;            // dịch ngang
+        private float panY = 0;            // dịch dọc
 
         private bool isPanning = false;
         private Point panStartPoint;
@@ -47,7 +47,11 @@ namespace xulyAnh
                 currentImage = (Image)originalImage.Clone();
                 zoomFactor = 1.0f;
                 panX = panY = 0;
-                pictureBox1.Invalidate();
+
+                labelInfo.Visible = false;   // Ẩn label "Nhấn File → Open để mở ảnh"
+                statusLabel.Text = $"Kích thước: {currentImage.Width}x{currentImage.Height} | Zoom: {zoomFactor * 100:0}%";
+
+                pictureBox1.Invalidate();   // bắt buộc vẽ lại
             }
         }
 
@@ -71,6 +75,7 @@ namespace xulyAnh
                 currentImage = (Image)originalImage.Clone();
                 zoomFactor = 1.0f;
                 panX = panY = 0;
+                statusLabel.Text = $"Kích thước: {currentImage.Width}x{currentImage.Height} | Zoom: {zoomFactor * 100:0}%";
                 pictureBox1.Invalidate();
             }
         }
@@ -86,6 +91,7 @@ namespace xulyAnh
                     currentImage = cf.CroppedImage;
                     zoomFactor = 1.0f;
                     panX = panY = 0;
+                    statusLabel.Text = $"Kích thước: {currentImage.Width}x{currentImage.Height} | Zoom: {zoomFactor * 100:0}%";
                     pictureBox1.Invalidate();
                 }
             }
@@ -108,6 +114,8 @@ namespace xulyAnh
 
             panX -= mouseX * (zoomFactor / oldZoom - 1);
             panY -= mouseY * (zoomFactor / oldZoom - 1);
+
+            statusLabel.Text = $"Kích thước: {currentImage.Width}x{currentImage.Height} | Zoom: {zoomFactor * 100:0}%";
 
             pictureBox1.Invalidate();
         }

@@ -1,0 +1,5 @@
+C:\Users\LENOVO\source\repos\Xulyanh\xulyAnh\bin\Release\net8.0-windows\publish\xulyAnh.exe
+C:\Users\LENOVO\source\repos\Xulyanh\xulyAnh\bin\Release\net8.0-windows\publish\xulyAnh.dll
+C:\Users\LENOVO\source\repos\Xulyanh\xulyAnh\bin\Release\net8.0-windows\publish\xulyAnh.deps.json
+C:\Users\LENOVO\source\repos\Xulyanh\xulyAnh\bin\Release\net8.0-windows\publish\xulyAnh.runtimeconfig.json
+C:\Users\LENOVO\source\repos\Xulyanh\xulyAnh\bin\Release\net8.0-windows\publish\xulyAnh.pdb
